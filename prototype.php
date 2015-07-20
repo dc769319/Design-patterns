@@ -19,6 +19,7 @@ $studentB = clone $studentA;
 var_dump($studentA);
 var_dump($studentB);
 //两个学生拥有相同的班级、学校、老师名字的，所以可以采用原形模式，获取一份原对象的拷贝,初始化信息相对不变的情况下
+
 $studentA->id = 1;
 $studentB->id = 2;
 var_dump($studentA);

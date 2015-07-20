@@ -18,6 +18,7 @@ class Singleton{
     }
 }
 
+
 $Singleton = Singleton::getInstance();
 echo $Singleton->getOut();
 

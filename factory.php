@@ -46,7 +46,6 @@ $product = ModifyFactory::createObject('standard');
 echo $product->detail();
 echo $product->sing();
 
-
 //工厂类中实例化对象非常方便，如果实例化的对象有所改变，不用去修改之前的代码逻辑，只需要在实例化对象时，修改new的对象即可
 
 ?>
