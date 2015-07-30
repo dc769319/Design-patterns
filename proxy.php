@@ -21,7 +21,7 @@ class cd{
 	}
 }
 
-//hangzhoucd
+//hangzhoucd,基于代理模式的新对象
 class hangzhoucd extends cd{
 	protected function _connect(){
 		mysql_connect('B','root','123456');
