@@ -1,5 +1,6 @@
 <?php
 //抽象商品
+
 abstract class CD{
 	public $title;
 	abstract public function detail();
