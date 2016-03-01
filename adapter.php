@@ -54,4 +54,6 @@ $print->printReportContent();
 
 //在此例子中，reportAdapter实现了printReport所期望的接口
 
+
+
 ?>
